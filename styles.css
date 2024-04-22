@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header,
+.information,
+.quote,
+.signup {
+    flex: 1;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.information {
+    background-color: white;
+}
+
+.quote {
+    background-color: #EFE7EB;
+}
+
+.signup {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    flex: .3;
+}
+
+.tippy {
+    display: flex;
+    justify-content: space-between;
+}
