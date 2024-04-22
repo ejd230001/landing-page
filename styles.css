@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 140%;
+    margin: 0;
 }
 
 .header {
@@ -34,7 +35,11 @@ body {
 
 .footer {
     background-color: #1F2937;
-    flex: .3;
+    flex: .2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 .tippy {
@@ -115,19 +120,21 @@ img {
 .four-boxes {
     display: flex;
     gap: 50px;
+    margin: 0px 300px;
 }
 
 .boxset {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    align-items: center;
     text-align: center;
     color: grey;
     gap: 10px;
+    flex: 1;
 }
 
 .box {
-    border: 3px solid black;
+    border: 3px solid;
     height: 150px;
     width: 150px;
     border-radius: 10px;
@@ -156,4 +163,45 @@ img {
     font-size: 28px;
 }
 
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.callbox {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 800px;
+    height: 80px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: 0px 80px;
+}
+
+.callheader {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.callsub {
+    color: lightgrey;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    border-radius: 7px;
+    text-align: center;
+    width: 125px;
+    padding:  8px 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
 
